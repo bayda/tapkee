@@ -1,43 +1,88 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Tapkee by lisitsyn</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <title>Tapkee by lisitsyn</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Tapkee</h1>
-        <p>An efficient dimension reduction toolbox</p>
+    <div id="container">
+      <div class="inner">
 
-        <p class="view"><a href="https://github.com/lisitsyn/tapkee">View the Project on GitHub <small>lisitsyn/tapkee</small></a></p>
+        <header>
+          <h1>Tapkee</h1>
+          <h2>An efficient dimension reduction toolbox</h2>
+        </header>
 
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/lisitsyn/tapkee/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/lisitsyn/tapkee/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/lisitsyn/tapkee" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
 
-        <ul>
-          <li><a href="https://github.com/lisitsyn/tapkee/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/lisitsyn/tapkee/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/lisitsyn/tapkee">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h1>Tapkee: an efficient dimension reduction toolbox</h1>
+        <hr>
 
-<h2>Methods</h2>
+        <section id="main_content">
+          <h1>Tapkee: an efficient dimension reduction toolbox</h1>
+
+<p>Tapkee is a C++ template library for dimensionality reduction with some bias on 
+spectral methods. The Tapkee origins from the code developed during GSoC 2011 as 
+the part of the <a href="https://github.com/shogun-toolbox/shogun">Shogun machine learning toolbox</a>. 
+The project aim is to provide standalone efficient and flexible library for 
+dimensionality reduction. We always encourage contributions and distribute our software
+under free GPLv3 license.</p>
+
+<p>Tapkee uses highly effective Eigen3 template linear algebra library and 
+optionally makes use of the ARPACK eigensolver.</p>
+
+<h2>Interface</h2>
+
+<p>This toolbox considers dimensionality reduction algorithms separate from data representation.
+To let user choose how to handle his data we provide callback interface essentially based
+on three functions: kernel function (similarity), distance function (dissimilarity) and 
+dense feature vector access function. It is worth to notice that most of methods use either
+kernel or distance while all linear (projective) methods require access to feature vector.</p>
+
+<p>Callback interface enables user to reach great flexibility: ability to set up some caching strategy,
+lazy initialization of resources and various more. As an example we provide simple callback set
+for dense feature matrices.</p>
+
+<h2>Integration with other libraries</h2>
+
+<p>The Tapkee library is designed to be easily integrated to other codebases. 
+For examples of such integration see <a href="https://github.com/shogun-toolbox/shogun">Shogun machine learning toolbox</a>.</p>
+
+<h2>Application</h2>
+
+<p>Tapkee comes with a sample application used to embed dense representations, for more information run</p>
+
+<p><code>./tapkee_app -h</code></p>
+
+<h2>Need help?</h2>
+
+<p>If you need any help or advice don't hesitate to send <a href="mailto://lisitsyn.s.o@gmail.com" title="Send mail
+to Sergey Lisitsyn">an email</a> or fire <a href="https://github.com/lisitsyn/tapkee/issues/new" title="New Tapkee Issue">an issue at github</a>.</p>
+
+<h2>Supported platforms</h2>
+
+<p>Tapkee is tested to be fully functional on Linux (ICC, GCC, Clang compilers) 
+and Mac OS X (GCC and Clang compilers).</p>
+
+<h2>Supported dimension reduction methods</h2>
 
 <p>Tapkee provides implementations of the following dimension reduction methods:</p>
 
 <ul>
 <li>Locally Linear Embedding / Kernel Locally Linear Embedding (LLE/KLLE)</li>
 <li>Neighborhood Preserving Embedding (NPE)</li>
-<li>Maximum Variance Unfolding and landmark Maximum Variance Unfolding (MVU)</li>
 <li>Local Tangent Space Alignment / Kernel Local Tangent Space Alignment (LTSA/KLTSA)</li>
 <li>Linear Local Tangent Space Alignment (LLTSA)</li>
 <li>Hessian Locally Linear Embedding (HLLE)</li>
@@ -48,17 +93,23 @@
 <li>Isomap and landmark Isomap </li>
 <li>Stochastic Proximity Embedding (SPE)</li>
 <li>Kernel PCA (kPCA)</li>
-<li>Neighborhood Component Analysis (NCA)</li>
+</ul><p>The following methods are under development:</p>
+
+<ul>
 <li>Coordinated Factor Analysis (CFA)</li>
+<li>Neighborhood Component Analysis (NCA)</li>
+<li>Maximum Variance Unfolding and landmark Maximum Variance Unfolding (MVU)</li>
 <li>t-Distributed Stochastic Neighbor Embedding (t-SNE)</li>
 </ul>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/lisitsyn">lisitsyn</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+        </section>
+
+        <footer>
+          Tapkee is maintained by <a href="https://github.com/lisitsyn">lisitsyn</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
   </body>
 </html>
