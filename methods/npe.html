@@ -10,7 +10,13 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <title>Tapkee by lisitsyn</title>
+    <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"}  }  });
+      </script>
+    <title>Tapkee | Neighborhood Preserving Embedding</title>
   </head>
 
   <body>
@@ -21,11 +27,44 @@
           <h1>Tapkee</h1>
           <h2>An efficient dimension reduction toolbox</h2>
         </header>
+        
+        <section id="back" class="clearfix">
+          <a href="../index.html" id="back" class="button"><span>Back to main page</span></a>
+        </section>
 
         <hr>
 
         <section id="main_content">
         <h3>Neighborhood Preserving Embedding</h3>
+        The Neighborhood Preserving Embedding (NPE) algorithm can be considered as a linear approximation to the
+        Locally Linear Embedding algorithm. Thus most of computation routines can be shared with <a href="lle.html">LLE</a>. NPE 
+        uses steps 1 and 2 of the Locally Linear Embedding and the main difference lies in the eigendecomposition based embedding. <br/>
+
+        According to the NPE algorithm embedding can be found from the solution of the following partial generalized eigenproblem:
+        \[ R L R f = \lambda R R^T f \]
+        where \( R \) is a matrix containing all feature vectors \( x_1 , \dots , x_N \) row-wise. The problem is solved for 
+        smallest eigenvalues \( \lambda_1, \dots, \lambda_t \) and its corresponding eigenvectors \( f_1, \dots, f_t \). Form 
+        embedding matrix such that \(i\)-th coordinate (\( i=1,\dots,N \)) of \(j\)-th eigenvector (\( j=1,\dots,t\) ) 
+        corresponds to \(j\)-th coordinate of projected \(i\)-th vector.
+
+        <hr>
+        <h3>Tapkee implementation</h3>
+        To use the NPE algorithm put NEIGHBORHOOD_PRESERVING_EMBEDDING value as REDUCTION_METHOD to the parameter map. 
+        It is required to fill dimension of feature vectors to the parameter map as CURRENT_DIMENSION. You can also set 
+        number of neighbors \( k \) as NUMBER_OF_NEIGHBORS in the parameter map and the eigenproblem shift can 
+        be set using EIGENSHIFT key. To change the method of obtaining nearest neighbors
+        use NEIGHBORS_METHOD (recommended value is COVER_TREE) key of the parameter map and to change 
+        the method of eigendecomposition use EIGEN_EMBEDDING_METHOD (recommended value is ARPACK). <br/>
+
+        The high-level implementation of the Neighborhood Preserving Embedding algorithm can be found 
+        <a href="https://github.com/lisitsyn/tapkee/blob/master/tapkee/tapkee_methods.hpp#L265">here</a>.
+        
+        <hr>
+        <h3>References</h3>
+        <ol>
+          <li><a href="http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=1544858">
+          He, X., Cai, D., Yan, S., & Zhang, H.-J. (2005). Neighborhood preserving embedding.</a></li>
+        </ol>
         </section>
 
         <footer>
