@@ -24,14 +24,12 @@
 
         <section id="downloads" class="clearfix">
           <a href="https://github.com/lisitsyn/tapkee/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/lisitsyn/tapkee/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
           <a href="https://github.com/lisitsyn/tapkee" id="view-on-github" class="button"><span>View on GitHub</span></a>
         </section>
 
         <hr>
 
         <section id="main_content">
-          <h1>Tapkee: an efficient dimension reduction toolbox</h1>
 
 <p>Tapkee is a C++ template library for dimensionality reduction with some bias on 
 spectral methods. The Tapkee origins from the code developed during GSoC 2011 as 
@@ -43,34 +41,6 @@ under free GPLv3 license.</p>
 <p>Tapkee uses highly effective Eigen3 template linear algebra library and 
 optionally makes use of the ARPACK eigensolver.</p>
 
-<h2>Interface</h2>
-
-<p>This toolbox considers dimensionality reduction algorithms separate from data representation.
-To let user choose how to handle his data we provide callback interface essentially based
-on three functions: kernel function (similarity), distance function (dissimilarity) and 
-dense feature vector access function. It is worth to notice that most of methods use either
-kernel or distance while all linear (projective) methods require access to feature vector.</p>
-
-<p>Callback interface enables user to reach great flexibility: ability to set up some caching strategy,
-lazy initialization of resources and various more. As an example we provide simple callback set
-for dense feature matrices.</p>
-
-<h2>Integration with other libraries</h2>
-
-<p>The Tapkee library is designed to be easily integrated to other codebases. 
-For examples of such integration see <a href="https://github.com/shogun-toolbox/shogun">Shogun machine learning toolbox</a>.</p>
-
-<h2>Application</h2>
-
-<p>Tapkee comes with a sample application used to embed dense representations, for more information run</p>
-
-<p><code>./tapkee_app -h</code></p>
-
-<h2>Need help?</h2>
-
-<p>If you need any help or advice don't hesitate to send <a href="mailto://lisitsyn.s.o@gmail.com" title="Send mail
-to Sergey Lisitsyn">an email</a> or fire <a href="https://github.com/lisitsyn/tapkee/issues/new" title="New Tapkee Issue">an issue at github</a>.</p>
-
 <h2>Supported platforms</h2>
 
 <p>Tapkee is tested to be fully functional on Linux (ICC, GCC, Clang compilers) 
@@ -81,18 +51,19 @@ and Mac OS X (GCC and Clang compilers).</p>
 <p>Tapkee provides implementations of the following dimension reduction methods:</p>
 
 <ul>
-<li>Locally Linear Embedding / Kernel Locally Linear Embedding (LLE/KLLE)</li>
-<li>Neighborhood Preserving Embedding (NPE)</li>
-<li>Local Tangent Space Alignment / Kernel Local Tangent Space Alignment (LTSA/KLTSA)</li>
-<li>Linear Local Tangent Space Alignment (LLTSA)</li>
-<li>Hessian Locally Linear Embedding (HLLE)</li>
-<li>Diffusion map</li>
-<li>Laplacian eigenmaps</li>
-<li>Locality Preserving Projections (LPP)</li>
-<li>Multidimensional scaling and landmark Multidimensional scaling (MDS/lMDS)</li>
-<li>Isomap and landmark Isomap </li>
-<li>Stochastic Proximity Embedding (SPE)</li>
-<li>Kernel PCA (kPCA)</li>
+<li><a href="methods/lle.html">Locally Linear Embedding / Kernel Locally Linear Embedding (LLE/KLLE)</a></li>
+<li><a href="methods/npe.html">Neighborhood Preserving Embedding (NPE)</a></li>
+<li><a href="methods/ltsa.html">Local Tangent Space Alignment (LTSA/KLTSA)</a></li>
+<li><a href="methods/lltsa.html">Linear Local Tangent Space Alignment (LLTSA)</a></li>
+<li><a href="methods/hlle.html">Hessian Locally Linear Embedding (HLLE)</a></li>
+<li><a href="methods/diffusion_map.html">Diffusion map</a></li>
+<li><a href="methods/laplacian_eigenmaps.html">Laplacian eigenmaps</a></li>
+<li><a href="methods/lpp.html">Locality Preserving Projections (LPP)</a></li>
+<li><a href="methods/mds.html">Multidimensional scaling and landmark Multidimensional scaling (MDS/lMDS)</a></li>
+<li><a href="methods/isomap.html">Isomap and landmark Isomap</a></li>
+<li><a href="methods/spe.html">Stochastic Proximity Embedding (SPE)</a></li>
+<li><a href="methods/pca.html">PCA</a></li>
+<li><a href="methods/kpca.html">Kernel PCA (kPCA)</a></li>
 </ul><p>The following methods are under development:</p>
 
 <ul>
@@ -101,6 +72,12 @@ and Mac OS X (GCC and Clang compilers).</p>
 <li>Maximum Variance Unfolding and landmark Maximum Variance Unfolding (MVU)</li>
 <li>t-Distributed Stochastic Neighbor Embedding (t-SNE)</li>
 </ul>
+
+<h2>Need help?</h2>
+
+<p>If you need any help or advice don't hesitate to send <a href="mailto://lisitsyn.s.o@gmail.com" title="Send mail
+to Sergey Lisitsyn">an email</a> or fire <a href="https://github.com/lisitsyn/tapkee/issues/new" title="New Tapkee Issue">an issue at github</a>.</p>
+
         </section>
 
         <footer>
