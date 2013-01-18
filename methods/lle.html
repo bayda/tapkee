@@ -16,7 +16,7 @@
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"}  }  });
       </script>
-    <title>Tapkee by lisitsyn</title>
+    <title>Tapkee | Locally Linear Embedding</title>
   </head>
 
   <body>
@@ -74,22 +74,28 @@
         \[ || x - y||_2^2 = (x,x) - 2 (x,y) + (y,y) \]
         we may transform \eqref{nearest_neighbors} to the following form:
         \[ \arg\min_{\mathcal{N}_x} \sum_{x_n \in \mathcal{N}_x} \left[ k(x,x) - 2 k(x,x_n) + k(x_n, x_n) \right] . \]
-        The matrix \( G \) in the equation \eqref{weights} can be formulated in terms of dot product as well. To find \( G \) using only dot products we can
+        <div id="centering">The matrix \( G \) in the equation \eqref{weights} can be formulated in terms of dot product as well. To find \( G \) using only dot products we can
         compute the Gram matrix \( K \) such that \( K_{i,j} = k(x_i, x_j)\) and center it using the matrix \( C_k = E_k - \frac{1}{k} 1 1^{T}\):
         \[ G = K C_k K. \]
         The latter equation can be performed more in a much more efficient way - it is the same to subtract a column mean of \( K \) from 
-        each column of \( K \), subtract a row mean of \( K \) from each row of \( K \) and add the grand mean of all elements of \( K \) to \( K \).
+        each column of \( K \), subtract a row mean of \( K \) from each row of \( K \) and add the grand mean of all elements of \( K \) to \( K \). See 
+        <a href="https://github.com/lisitsyn/tapkee/blob/master/tapkee/utils/matrix.hpp">implementation</a> 
+        of centering routine for more details.
+        </div>
 
+        <hr>
         <h3>Tapkee implementation</h3>
 
         For means of generality Tapkee implements only Kernel Locally Linear Embedding (which becomes plain Locally Linear Embedding when linear kernel is 
         provided). To use it put KERNEL_LOCALLY_LINEAR_EMBEDDING value as REDUCTION_METHOD to the parameter map. You can also set number of neighbors \( k \) as 
-        NUMBER_OF_NEIGHBORS in the parameter map and the eigenproblem shift can be set using EIGENSHIFT key.<br/>
+        NUMBER_OF_NEIGHBORS in the parameter map and the eigenproblem shift can be set using EIGENSHIFT key. To change the method of obtaining nearest neighbors
+        use NEIGHBORS_METHOD (recommended value is COVER_TREE) key of the parameter map and to change 
+        the method of eigendecomposition use EIGEN_EMBEDDING_METHOD (recommended value is ARPACK). <br/>
 
         The high-level implementation of the Kernel Locally Linear Embedding algorithm can be found 
         <a href="https://github.com/lisitsyn/tapkee/blob/master/tapkee/tapkee_methods.hpp#L82">here</a>.
 
-
+        <hr>
         <h3>References</h3>
 
         <ol>
