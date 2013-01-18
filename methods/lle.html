@@ -27,12 +27,17 @@
           <h1>Tapkee</h1>
           <h2>An efficient dimension reduction toolbox</h2>
         </header>
+        
+        <section id="back" class="clearfix">
+          <a href="../index.html" id="back" class="button"><span>Back to main page</span></a>
+        </section>
 
         <hr>
 
         <section id="main_content">
         
         <h3>Locally Linear Embedding</h3>
+        
         Given a set of feature vectors \(X = \{ x_1, x_2, \dots x_N \} \) the Locally Linear Embedding algorithm proposes to perform the following steps:
         <ol>
           <li>Identify nearest neighbors. <br/>
@@ -63,6 +68,7 @@
         </ol>
         
         <h3>Kernel Locally Linear Embedding</h3>
+        
         The Locally Linear Embedding algorithm can be generalized for spaces with defined dot product function \( k(x,y) \)
         (so-called <a href="http://en.wikipedia.org/wiki/Reproducing_kernel_Hilbert_space">RKHS</a>) in the elegant way. Using the following equation
         \[ || x - y||_2^2 = (x,x) - 2 (x,y) + (y,y) \]
@@ -74,7 +80,18 @@
         The latter equation can be performed more in a much more efficient way - it is the same to subtract a column mean of \( K \) from 
         each column of \( K \), subtract a row mean of \( K \) from each row of \( K \) and add the grand mean of all elements of \( K \) to \( K \).
 
+        <h3>Tapkee implementation</h3>
+
+        For means of generality Tapkee implements only Kernel Locally Linear Embedding (which becomes plain Locally Linear Embedding when linear kernel is 
+        provided). To use it put KERNEL_LOCALLY_LINEAR_EMBEDDING value as REDUCTION_METHOD to the parameter map. You can also set number of neighbors \( k \) as 
+        NUMBER_OF_NEIGHBORS in the parameter map and the eigenproblem shift can be set using EIGENSHIFT key.<br/>
+
+        The high-level implementation of the Kernel Locally Linear Embedding algorithm can be found 
+        <a href="https://github.com/lisitsyn/tapkee/blob/master/tapkee/tapkee_methods.hpp#L82">here</a>.
+
+
         <h3>References</h3>
+
         <ol>
           <li><a href="http://www.cs.nyu.edu/~roweis/lle/">Sam Roweis' page on LLE</a></li>
           <li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.123.7319&rep=rep1&type=pdf">Saul, L. K., Ave, P., Park, F., & Roweis, S. T. (2001). An introduction to Locally Linear Embedding</a></li>
