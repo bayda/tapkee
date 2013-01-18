@@ -10,7 +10,13 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <title>Tapkee by lisitsyn</title>
+    <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"}  }  });
+      </script>
+    <title>Tapkee | Linear Local Tangent Space Alignment</title>
   </head>
 
   <body>
@@ -21,11 +27,41 @@
           <h1>Tapkee</h1>
           <h2>An efficient dimension reduction toolbox</h2>
         </header>
+        
+        <section id="back" class="clearfix">
+          <a href="../index.html" id="back" class="button"><span>Back to main page</span></a>
+        </section>
 
         <hr>
 
         <section id="main_content">
         <h3>Linear Local Tangent Space Alignment</h3>
+        The Linear Local Tangent Space Alignment is a modification of the <a href="ltsa.html">LTSA</a> algorithm. Main difference (just like in NPE and LLE) 
+        of linear and plain LTSA methods lies in way of constructing embedding. Instead of solving common for LLE and LTSA eigenproblem, LLTSA solves the following
+        generalized eigenproblem:
+        \[ R L R^T f = \lambda R R^T f, \]
+        where \( R \) is a matrix containing all feature vectors \( x_1, \dots, x_N \) row-wise. The problem is solved for smallest eigenvalues
+        \( \lambda_1 \leq \lambda_2 \leq \dots \leq \lambda_t \) and its corresponding eigenvectors \( f_1, \dots, f_t \). Form 
+        embedding matrix such that \(i\)-th coordinate (\( i=1,\dots,N \)) of \(j\)-th eigenvector (\( j=1,\dots,t\) ) 
+        corresponds to \(j\)-th coordinate of projected \(i\)-th vector.
+        
+        <hr>
+        <h3>Tapkee implementation</h3>
+        To use the LLTSA algorithm put LINEAR_LOCAL_TANGENT_SPACE_ALIGNMENT value as REDUCTION_METHOD to the parameter map. It is required to fill in the 
+        current dimensionality of feature space as CURRENT_DIMENSION to the parameter map. You can also set number of neighbors \( k \) as 
+        NUMBER_OF_NEIGHBORS in the parameter map and the eigenproblem shift can be set using EIGENSHIFT key. To change the method of obtaining nearest neighbors
+        use NEIGHBORS_METHOD (recommended value is COVER_TREE) key of the parameter map and to change 
+        the method of eigendecomposition use EIGEN_EMBEDDING_METHOD (recommended value is ARPACK). <br/>
+
+        The high-level implementation of the Kernel Locally Linear Embedding algorithm can be found 
+        <a href="https://github.com/lisitsyn/tapkee/blob/master/tapkee/tapkee_methods.hpp#L82">here</a>.
+
+        <hr>
+        <h3>References</h3>
+        <ol>
+          <li><a href="">
+          Zhang, T., Yang, J., Zhao, D., & Ge, X. (2007). Linear local tangent space alignment and application to face recognition</a></li>
+        </ol>
         </section>
 
         <footer>
