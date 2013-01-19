@@ -10,7 +10,13 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <title>Tapkee by lisitsyn</title>
+    <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"}  }  });
+      </script>
+    <title>Tapkee | Diffusion Map</title>
   </head>
 
   <body>
@@ -22,10 +28,44 @@
           <h2>An efficient dimension reduction toolbox</h2>
         </header>
 
+        <section id="back" class="clearfix">
+          <a href="../index.html#methods" id="back" class="button"><span>Back to methods</span></a>
+        </section>
+
         <hr>
 
         <section id="main_content">
         <h3>Diffusion map</h3>
+        The diffusion map algorithm performs the following steps to embed feature vectors \( x_1, \dots, x_N \):
+        <ol>
+          <li>Compute \( N \times N \) gaussian kernel matrix \( K \) such that 
+          \[ K_{i,j} = \exp\left\{ - \frac{d^2(x_i,x_j)}{\omega} \right\},\]
+          where \( d : X \times X \to \mathbb{R} \) is a distance function and \( \omega > 0 \) is a width of the kernel.</li>
+          <li>Transform the matrix \( K \) using the following equations
+          \[ K_{i,j} \leftarrow \frac{K_{i,j}}{(p_i p_j)^q},\]
+          where \( p_i = \sum_{j=1}^{N} K_{j,i}\). Then, recompute \( p_i = \sum_{j=1}^{N} K_{j,i} \) again and do
+          \[ K_{i,j} \leftarrow \frac{K_{i,j}}{\sqrt{p_i p_j}}.\]
+          </li>
+          <li>Construct embedding with \( \dim = t \) from the solution of the following partial eigenproblem
+          \[ K^{T} K f = \lambda f \]
+          for \(t \) largest eigenvalues. Form the embedding matrix such that \(i\)-th coordinate (\( i=1,\dots,N \)) of \(j\)-th largest
+          eigenvector (\( j=1,\dots,t\) ) corresponds to \(j\)-th coordinate of projected \(i\)-th vector.
+          </li>
+        </ol>
+        <hr>
+        <h3>Tapkee implementation</h3>
+        The Diffusion map algorithm is used when REDUCTION_METHOD key is set to DIFFUSION_MAP. The number
+        of timesteps \( q \) can be set using DIFFUSION_MAP_TIMESTEPS key. The method of eigendecomposition
+        is filled as EIGEN_EMBEDDING_METHOD (both ARPACK and RANDOMIZED are working well while the latter method is 
+        faster).<br/>
+        The high-level implementation can be found <a href="https://github.com/lisitsyn/tapkee/blob/master/tapkee/tapkee_methods.hpp#L133">here</a>.
+        <hr>
+        <h3>References</h3>
+        <ol>
+          <li><a href="http://linkinghub.elsevier.com/retrieve/pii/S1063520306000546">
+          Coifman, R., & Lafon, S. (2006). Diffusion maps.
+          </a></li>
+        </ol>
         </section>
 
         <footer>
