@@ -10,7 +10,13 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <title>Tapkee by lisitsyn</title>
+    <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"}  }  });
+      </script>
+    <title>Tapkee | Locality Preserving Projections</title>
   </head>
 
   <body>
@@ -21,11 +27,47 @@
           <h1>Tapkee</h1>
           <h2>An efficient dimension reduction toolbox</h2>
         </header>
+        
+        <section id="back" class="clearfix">
+          <a href="../index.html#methods" id="back" class="button"><span>Back to methods</span></a>
+        </section>
 
         <hr>
 
         <section id="main_content">
         <h3>Locality Preserving Projections</h3>
+        The Locality Preserving Projections algorithm can be viewed as a linear approximation of the 
+        <a href="laplacian_eigenmaps.html">Laplacian Eigenmaps</a> algorithm. It reproduces
+        first two steps of the Laplacian Eigenmaps and the difference lies in the step 3.
+        To obtain \( t \) features (coordinates) of embedded vectors solve the partial generalized eigenproblem 
+        \[ R (D-W) R^{T} f = \lambda R D R^{T} f, \]
+        where \( R \) contains all feature vectors row-wise, for smallest eigenvalues
+        \( \lambda_1, \dots, \lambda_t, \lambda_{t+1} \) and its corresponding eigenvectors \( f_1, \dots, f_t, f_{t+1} \).
+        Drop the smallest eigenvalue \( \lambda_1 \sim 0 \) (with the corresponding eigenvector) and 
+        form embedding matrix such that \(i\)-th coordinate (\( i=1,\dots,N \)) of \(j\)-th eigenvector 
+        (\( j=1,\dots,t\) ) corresponds to \(j\)-th coordinate of projected \(i\)-th vector.
+        <hr>
+        <h3>Tapkee implementation</h3>
+        
+        To use the Locality Preserving Projections algorithm put LOCALITY_PRESERVING_PROJECTIONS value as 
+        REDUCTION_METHOD to the parameter map. The current dimensionality of feature space should be filled
+        in as a CURRENT_DIMENSION. The width of the gaussian kernel
+        can be set using GAUSSIAN_KERNEL_WIDTH. You can also set number 
+        of neighbors \( k \) as NUMBER_OF_NEIGHBORS in the parameter map and the eigenproblem shift 
+        can be set using EIGENSHIFT key. To change the method of obtaining nearest neighbors
+        use NEIGHBORS_METHOD (recommended value is COVER_TREE) key of the parameter map and to change 
+        the method of eigendecomposition use EIGEN_EMBEDDING_METHOD (recommended value is ARPACK). <br/>
+
+        The high-level implementation of the Laplacian Eigenmaps algorithm can be found 
+        <a href="https://github.com/lisitsyn/tapkee/blob/master/tapkee/tapkee_methods.hpp#L340">here</a>.
+
+
+        <hr>
+        <h3>References</h3>
+        <ol>
+          <li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.85.7147&rep=rep1&type=pdf">
+          He, X., & Niyogi, P. (2003). Locality Preserving Projections.</a></li>
+        </ol>
         </section>
 
         <footer>
