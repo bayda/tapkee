@@ -152,6 +152,9 @@ a.button span {
   height: 23px;
 }
 
+#back span {
+  padding-left: 10%;
+}
 #download-zip span {
   background: transparent url(../images/zip-icon.png) 12px 50% no-repeat;
 }
