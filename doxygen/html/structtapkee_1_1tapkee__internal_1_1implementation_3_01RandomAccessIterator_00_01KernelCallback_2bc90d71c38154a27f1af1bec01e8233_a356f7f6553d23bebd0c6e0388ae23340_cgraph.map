@@ -1,0 +1,44 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$namespacetapkee_1_1tapkee__internal.html#af40147a3dc204c744426edc0e6c65945" title="tapkee::tapkee_internal::find_neighbors" alt="" coords="221,541,477,571"/>
+<area shape="rect" id="node107" href="$namespacetapkee_1_1tapkee__internal.html#a4a462bcc3497eaa1832d9b48b57764d2" title="Computes laplacian of neighborhood graph." alt="" coords="1019,226,1301,257"/>
+<area shape="rect" id="node110" href="$namespacetapkee_1_1tapkee__internal.html#a94182ec264e0f00927857079e78e2626" title="tapkee::tapkee_internal::construct_locality_preserving_eigenproblem" alt="" coords="135,594,564,625"/>
+<area shape="rect" id="node112" href="$namespacetapkee_1_1tapkee__internal.html#a6292f847230181ae854b81552b1c8295" title="tapkee::tapkee_internal::compute_mean" alt="" coords="219,647,480,678"/>
+<area shape="rect" id="node114" href="$namespacetapkee_1_1tapkee__internal.html#a2e93009cb610607e2c60936d0f576809" title="tapkee::tapkee_internal::project" alt="" coords="244,701,455,731"/>
+<area shape="rect" id="node5" href="$classtapkee_1_1LoggingSingleton.html#aa46d03bd88344fa1ceb6bd0c5a22f3f4" title="tapkee::LoggingSingleton::instance" alt="" coords="673,514,908,545"/>
+<area shape="rect" id="node7" href="$classtapkee_1_1LoggingSingleton.html#a4391448c96d781b651faf4d22127c6a5" title="tapkee::LoggingSingleton::message_warning" alt="" coords="644,567,937,598"/>
+<area shape="rect" id="node9" href="$classtapkee_1_1LoggingSingleton.html#ac180dd2a26ff8501dfe47581cf714039" title="tapkee::LoggingSingleton::message_info" alt="" coords="656,621,925,651"/>
+<area shape="rect" id="node11" href="$namespacetapkee_1_1tapkee__internal.html#aa7b3a74c4190343c4010f4ff82fc5cd5" title="tapkee::tapkee_internal::get_neighbors_method_name" alt="" coords="617,674,964,705"/>
+<area shape="rect" id="node13" href="$namespacetapkee_1_1tapkee__internal.html#a20c26a2ad7a38a1a8daec26e8fdcbdde" title="tapkee::tapkee_internal::find_neighbors_bruteforce_impl" alt="" coords="613,407,968,438"/>
+<area shape="rect" id="node15" href="$namespacetapkee_1_1tapkee__internal.html#a010ff3fa6dbfe55af010c542969e1e6f" title="tapkee::tapkee_internal::find_neighbors_covertree_impl" alt="" coords="615,779,967,810"/>
+<area shape="rect" id="node105" href="$namespacetapkee_1_1tapkee__internal.html#a3e9a3155aaddbc871f7d3b79e32f08d7" title="tapkee::tapkee_internal::is_connected" alt="" coords="665,461,916,491"/>
+<area shape="rect" id="node17" href="$namespacetapkee_1_1tapkee__internal.html#a396fb5846d119aca89f5d7d91b1ce7aa" title="tapkee::tapkee_internal::push" alt="" coords="2784,529,2981,559"/>
+<area shape="rect" id="node19" href="$namespacetapkee_1_1tapkee__internal.html#ae6ef2d26baf403980c4e8a190f5ad4d3" title="tapkee::tapkee_internal::batch_create" alt="" coords="1773,914,2019,945"/>
+<area shape="rect" id="node56" href="$namespacetapkee_1_1tapkee__internal.html#ad459ef5b995663cab5c64f5fac238b39" title="tapkee::tapkee_internal::k_nearest_neighbor" alt="" coords="1016,411,1304,442"/>
+<area shape="rect" id="node103" href="$namespacetapkee_1_1tapkee__internal.html#afd060c2753ab465331e98777a56178f1" title="tapkee::tapkee_internal::free_children" alt="" coords="1037,779,1283,810"/>
+<area shape="rect" id="node22" href="$namespacetapkee_1_1tapkee__internal.html#a79ca06b79c9721619d7b72a4649d1e9f" title="tapkee::tapkee_internal::distance" alt="" coords="2772,119,2993,150"/>
+<area shape="rect" id="node24" href="$namespacetapkee_1_1tapkee__internal.html#abe8fe5cb70b2b1fdb1cea84d3c6320ee" title="tapkee::tapkee_internal::max_set" alt="" coords="2463,1182,2684,1213"/>
+<area shape="rect" id="node26" href="$namespacetapkee_1_1tapkee__internal.html#a17514c0a15907aede39aa745ce4e04cc" title="tapkee::tapkee_internal::batch_insert" alt="" coords="2137,921,2377,951"/>
+<area shape="rect" id="node31" href="$namespacetapkee_1_1tapkee__internal.html#aee718b722c4380a0f59e87ebfe6b16c6" title="tapkee::tapkee_internal::get_scale" alt="" coords="2459,1235,2688,1266"/>
+<area shape="rect" id="node28" href="$namespacetapkee_1_1tapkee__internal.html#a1c10c90051f832a2a88b356ff8ac68e2" title="tapkee::tapkee_internal::new_leaf" alt="" coords="2461,707,2685,738"/>
+<area shape="rect" id="node34" href="$namespacetapkee_1_1tapkee__internal.html#a9c517d27392a3df71e6ae38724a57b6e" title="tapkee::tapkee_internal::new_node" alt="" coords="2457,814,2689,845"/>
+<area shape="rect" id="node36" href="$namespacetapkee_1_1tapkee__internal.html#a32ad2673f3ba134d14104a40aee81504" title="tapkee::tapkee_internal::alloc" alt="" coords="2475,867,2672,898"/>
+<area shape="rect" id="node38" href="$namespacetapkee_1_1tapkee__internal.html#aa8d760aab5867f4dd78720e54669d62f" title="tapkee::tapkee_internal::pop" alt="" coords="2477,451,2669,482"/>
+<area shape="rect" id="node40" href="$namespacetapkee_1_1tapkee__internal.html#ada48e1c28a6f1a4ade60a45d65ac0c7f" title="tapkee::tapkee_internal::split" alt="" coords="2477,1078,2669,1109"/>
+<area shape="rect" id="node42" href="$namespacetapkee_1_1tapkee__internal.html#aee6060e3340deea319bc8c3c30486892" title="tapkee::tapkee_internal::dist_of_scale" alt="" coords="2759,1078,3007,1109"/>
+<area shape="rect" id="node45" href="$namespacetapkee_1_1tapkee__internal.html#a9d3883f5694a2ff8456470767a537ddc" title="tapkee::tapkee_internal::dist_split" alt="" coords="2463,761,2684,791"/>
+<area shape="rect" id="node51" href="$classtapkee_1_1tapkee__internal_1_1v__array.html#a431939dbd3f0ff43a3aef0c4731459e4" title="tapkee::tapkee_internal::v_array::decr" alt="" coords="2448,921,2699,951"/>
+<area shape="rect" id="node53" href="$classtapkee_1_1tapkee__internal_1_1v__array.html#a4fe9d3fee79bdf854302cfbf6707c729" title="tapkee::tapkee_internal::v_array::last" alt="" coords="2452,1025,2695,1055"/>
+<area shape="rect" id="node58" href="$namespacetapkee_1_1tapkee__internal.html#a4d481f564de1c59e79df1d149fa80069" title="tapkee::tapkee_internal::update_k" alt="" coords="1397,305,1621,335"/>
+<area shape="rect" id="node60" href="$namespacetapkee_1_1tapkee__internal.html#a64bcde82bf6c18c8693e63378b0d1978" title="tapkee::tapkee_internal::set_k" alt="" coords="1408,358,1611,389"/>
+<area shape="rect" id="node62" href="$namespacetapkee_1_1tapkee__internal.html#afbe22ffa9549d2d9716a968377496423" title="tapkee::tapkee_internal::alloc_k" alt="" coords="1403,411,1616,442"/>
+<area shape="rect" id="node64" href="$namespacetapkee_1_1tapkee__internal.html#a73b9071b3a48bb6a382f726949b33c8c" title="tapkee::tapkee_internal::batch_nearest_neighbor" alt="" coords="1353,465,1665,495"/>
+<area shape="rect" id="node66" href="$namespacetapkee_1_1tapkee__internal.html#aae990da4994c1b3b231fc2994be52eb1" title="tapkee::tapkee_internal::get_cover_sets" alt="" coords="2127,503,2388,534"/>
+<area shape="rect" id="node73" href="$namespacetapkee_1_1tapkee__internal.html#ae150ad65b49a64d6adbabdfa60af474c" title="tapkee::tapkee_internal::internal_batch_nearest_neighbor" alt="" coords="1715,298,2077,329"/>
+<area shape="rect" id="node75" href="$namespacetapkee_1_1tapkee__internal.html#a9142099b0b74cdfc16507267b08cad17" title="tapkee::tapkee_internal::brute_nearest" alt="" coords="2132,245,2383,275"/>
+<area shape="rect" id="node78" href="$namespacetapkee_1_1tapkee__internal.html#aab8922f97deb9fc30d645346993cf8f8" title="tapkee::tapkee_internal::copy_zero_set" alt="" coords="2444,199,2703,230"/>
+<area shape="rect" id="node88" href="$namespacetapkee_1_1tapkee__internal.html#a438943f3b0492bef88edf8e35e99a7d4" title="tapkee::tapkee_internal::copy_cover_sets" alt="" coords="2437,146,2709,177"/>
+<area shape="rect" id="node94" href="$namespacetapkee_1_1tapkee__internal.html#afa7eb5c4a082cd6fe070cacb7cf9705b" title="tapkee::tapkee_internal::halfsort" alt="" coords="2151,298,2364,329"/>
+<area shape="rect" id="node98" href="$namespacetapkee_1_1tapkee__internal.html#ab1af46f863dc36fa7244e7ebf868d7a2" title="tapkee::tapkee_internal::descend" alt="" coords="2463,93,2684,123"/>
+<area shape="rect" id="node80" href="$namespacetapkee_1_1tapkee__internal.html#aae27cb0975f6d14eb72f3ee49c63939a" title="tapkee::tapkee_internal::shell" alt="" coords="2784,173,2981,203"/>
+<area shape="rect" id="node96" href="$namespacetapkee_1_1tapkee__internal.html#aa7ed28c7d3cc8cc74f9a4035e33172bc" title="tapkee::tapkee_internal::compare" alt="" coords="2463,303,2684,334"/>
+</map>

@@ -43,7 +43,7 @@
         </header>
  
         <section id="back" class="clearfix">
-          <a href="../index.html#methods" id="back" class="button"><span>Back to methods</span></a>
+          <a href="../index.html#methods" id="back" class="button"><span>Back</span></a>
         </section>
 
         <hr>
@@ -81,17 +81,9 @@
         one in KLTSA and the matrix \( G \) in the step 2 is naturally replaced with matrix \( K_{i,j} = k(\mathcal{N}_x^{i},\mathcal{N}_x^{j}) \).
 
         <hr>
-        <h3>Tapkee implementation</h3>
-
-        For means of generality Tapkee implements only Kernel Local Tangent Space Alignment (which becomes plain Local Tangent Space Alignment when linear kernel is 
-        provided). To use it put KERNEL_LOCALLY_LINEAR_EMBEDDING value as REDUCTION_METHOD to the parameter map. You can also set number of neighbors \( k \) as 
-        NUMBER_OF_NEIGHBORS in the parameter map and the eigenproblem shift can be set using EIGENSHIFT key. To change the method of obtaining nearest neighbors
-        use NEIGHBORS_METHOD (recommended value is COVER_TREE) key of the parameter map and to change 
-        the method of eigendecomposition use EIGEN_EMBEDDING_METHOD (recommended value is ARPACK). <br/>
-
-        The high-level implementation of the Kernel Local Tangent Space Alignment algorithm can be found 
-        <a href="https://github.com/lisitsyn/tapkee/blob/master/tapkee/tapkee_methods.hpp#L105">here</a>.
-
+        <h3>Result of applying LTSA to swissroll data</h3>
+        <img width="100%" src="../images/swissroll/ltsa.png"/>
+        
         <hr>
         <h3>References</h3> 
         

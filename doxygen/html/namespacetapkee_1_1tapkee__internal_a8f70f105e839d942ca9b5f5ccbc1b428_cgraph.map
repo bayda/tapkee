@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$namespacetapkee.html#aa485f620ab957f9766c6b3ca54c5501a" title="Main entry&#45;point of the library. Constructs dense embedding with specified dimension using provided d..." alt="" coords="265,85,377,115"/>
+<area shape="rect" id="node5" href="$classtapkee_1_1LoggingSingleton.html#aa46d03bd88344fa1ceb6bd0c5a22f3f4" title="tapkee::LoggingSingleton::instance" alt="" coords="448,5,683,35"/>
+<area shape="rect" id="node7" href="$classtapkee_1_1LoggingSingleton.html#ac180dd2a26ff8501dfe47581cf714039" title="tapkee::LoggingSingleton::message_info" alt="" coords="431,58,700,89"/>
+<area shape="rect" id="node9" href="$namespacetapkee_1_1tapkee__internal.html#a7181ce6e827e1fe588067bcabb825975" title="get_method_name" alt="" coords="499,111,632,142"/>
+<area shape="rect" id="node11" href="$classtapkee_1_1LoggingSingleton.html#a84097017508fb53687b4611d2c987e97" title="tapkee::LoggingSingleton::message_error" alt="" coords="428,165,703,195"/>
+</map>

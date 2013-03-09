@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$namespacetapkee_1_1tapkee__internal.html#aae990da4994c1b3b231fc2994be52eb1" title="get_cover_sets" alt="" coords="483,28,597,58"/>
+<area shape="rect" id="node5" href="$namespacetapkee_1_1tapkee__internal.html#aa8d760aab5867f4dd78720e54669d62f" title="pop" alt="" coords="687,116,729,146"/>
+<area shape="rect" id="node7" href="$namespacetapkee_1_1tapkee__internal.html#a396fb5846d119aca89f5d7d91b1ce7aa" title="push" alt="" coords="831,232,881,262"/>
+<area shape="rect" id="node10" href="$namespacetapkee_1_1tapkee__internal.html#a79ca06b79c9721619d7b72a4649d1e9f" title="distance" alt="" coords="820,444,892,474"/>
+<area shape="rect" id="node13" href="$namespacetapkee_1_1tapkee__internal.html#ae150ad65b49a64d6adbabdfa60af474c" title="internal_batch_nearest_neighbor" alt="" coords="220,233,433,264"/>
+<area shape="rect" id="node15" href="$namespacetapkee_1_1tapkee__internal.html#a9142099b0b74cdfc16507267b08cad17" title="brute_nearest" alt="" coords="489,233,591,264"/>
+<area shape="rect" id="node18" href="$namespacetapkee_1_1tapkee__internal.html#aab8922f97deb9fc30d645346993cf8f8" title="copy_zero_set" alt="" coords="653,284,763,314"/>
+<area shape="rect" id="node28" href="$namespacetapkee_1_1tapkee__internal.html#a438943f3b0492bef88edf8e35e99a7d4" title="copy_cover_sets" alt="" coords="647,390,769,421"/>
+<area shape="rect" id="node34" href="$namespacetapkee_1_1tapkee__internal.html#afa7eb5c4a082cd6fe070cacb7cf9705b" title="halfsort" alt="" coords="508,337,572,368"/>
+<area shape="rect" id="node38" href="$namespacetapkee_1_1tapkee__internal.html#ab1af46f863dc36fa7244e7ebf868d7a2" title="descend" alt="" coords="671,444,745,474"/>
+<area shape="rect" id="node20" href="$namespacetapkee_1_1tapkee__internal.html#aae27cb0975f6d14eb72f3ee49c63939a" title="shell" alt="" coords="831,390,881,421"/>
+<area shape="rect" id="node36" href="$namespacetapkee_1_1tapkee__internal.html#aa7ed28c7d3cc8cc74f9a4035e33172bc" title="compare" alt="" coords="671,337,745,368"/>
+</map>

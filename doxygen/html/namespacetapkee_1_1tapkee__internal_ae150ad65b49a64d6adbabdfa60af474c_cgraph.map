@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$namespacetapkee_1_1tapkee__internal.html#a9142099b0b74cdfc16507267b08cad17" title="brute_nearest" alt="" coords="276,155,377,186"/>
+<area shape="rect" id="node5" href="$namespacetapkee_1_1tapkee__internal.html#aa8d760aab5867f4dd78720e54669d62f" title="pop" alt="" coords="473,102,516,132"/>
+<area shape="rect" id="node7" href="$namespacetapkee_1_1tapkee__internal.html#aab8922f97deb9fc30d645346993cf8f8" title="copy_zero_set" alt="" coords="440,206,549,236"/>
+<area shape="rect" id="node13" href="$namespacetapkee_1_1tapkee__internal.html#a396fb5846d119aca89f5d7d91b1ce7aa" title="push" alt="" coords="617,167,668,198"/>
+<area shape="rect" id="node17" href="$namespacetapkee_1_1tapkee__internal.html#aae990da4994c1b3b231fc2994be52eb1" title="get_cover_sets" alt="" coords="269,51,384,82"/>
+<area shape="rect" id="node22" href="$namespacetapkee_1_1tapkee__internal.html#a438943f3b0492bef88edf8e35e99a7d4" title="copy_cover_sets" alt="" coords="433,259,556,290"/>
+<area shape="rect" id="node28" href="$namespacetapkee_1_1tapkee__internal.html#afa7eb5c4a082cd6fe070cacb7cf9705b" title="halfsort" alt="" coords="295,311,359,342"/>
+<area shape="rect" id="node32" href="$namespacetapkee_1_1tapkee__internal.html#ab1af46f863dc36fa7244e7ebf868d7a2" title="descend" alt="" coords="457,366,532,396"/>
+<area shape="rect" id="node9" href="$namespacetapkee_1_1tapkee__internal.html#aae27cb0975f6d14eb72f3ee49c63939a" title="shell" alt="" coords="617,299,668,330"/>
+<area shape="rect" id="node11" href="$namespacetapkee_1_1tapkee__internal.html#a79ca06b79c9721619d7b72a4649d1e9f" title="distance" alt="" coords="607,246,679,276"/>
+<area shape="rect" id="node30" href="$namespacetapkee_1_1tapkee__internal.html#aa7ed28c7d3cc8cc74f9a4035e33172bc" title="compare" alt="" coords="457,312,532,343"/>
+</map>

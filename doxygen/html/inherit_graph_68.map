@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$classtapkee_1_1LoggerImplementation.html" title="A base class for logger required by the library." alt="" coords="5,5,160,35"/>
+<area shape="rect" id="node3" href="$classtapkee_1_1DefaultLoggerImplementation.html" title="Default std::cout implementation of LoggerImplementation." alt="" coords="208,5,405,35"/>
+</map>

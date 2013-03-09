@@ -1,0 +1,22 @@
+digraph G
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="CONCRETE_IMPLEMENTATION",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="compute_distance_matrix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacetapkee_1_1tapkee__internal.html#afa0db1fc6dacd4d9479bfb873d5c220a"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="centerMatrix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacetapkee_1_1tapkee__internal.html#a7b19ac8a49228950511c177290d5bc95"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="eigen_embedding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacetapkee_1_1tapkee__internal.html#add10b992eff51ab8e89cb8ef16dfb270",tooltip="Multiple implementation handler method for various eigendecomposition methods."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="tapkee::LoggingSingleton::instance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtapkee_1_1LoggingSingleton.html#aa46d03bd88344fa1ceb6bd0c5a22f3f4"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="get_eigen_embedding_name",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacetapkee_1_1tapkee__internal.html#a21267a1c1b1fc39f0125609dfacffe96"];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="tapkee::embed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacetapkee.html#aa485f620ab957f9766c6b3ca54c5501a",tooltip="Main entry-point of the library. Constructs dense embedding with specified dimension using provided d..."];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="get_method_name",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacetapkee_1_1tapkee__internal.html#a7181ce6e827e1fe588067bcabb825975"];
+}

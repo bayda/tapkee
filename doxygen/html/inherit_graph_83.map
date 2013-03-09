@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$structtapkee_1_1tapkee_1_1ProjectionImplementation.html" title="A base class for implementation of projecting." alt="" coords="7,31,177,62"/>
+<area shape="rect" id="node3" href="$structtapkee_1_1MatrixProjectionImplementation.html" title="Basic ProjectionImplementation that subtracts mean from the vector and multiplies projecting matrix w..." alt="" coords="227,5,435,35"/>
+<area shape="rect" id="node5" href="$structtapkee_1_1tapkee_1_1MatrixProjectionImplementation.html" title="Basic ProjectionImplementation that subtracts mean from the vector and multiplies projecting matrix w..." alt="" coords="227,58,435,89"/>
+</map>

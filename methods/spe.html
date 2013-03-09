@@ -43,7 +43,7 @@
         </header>
 
         <section id="back" class="clearfix">
-          <a href="../index.html#methods" id="back" class="button"><span>Back to methods</span></a>
+          <a href="../index.html#methods" id="back" class="button"><span>Back</span></a>
         </section>
 
         <hr>
@@ -52,32 +52,28 @@
 
         <h3>Stochastic Proximity Embedding</h3>
 
-	Stochastic Proximity Embedding (SPE) is an efficient algorithm for generating low-dimensional Euclidean embeddings given a set of feature vectors \(X = \{ x_1, x_2, \dots x_N \} \) and/or their symmetric distance matrix \( D_{ij} \).
-	It is an interesting method because of its simplicity and efficiency, it scales linearly with the sample size \( N \). </br></br>
+        Stochastic Proximity Embedding (SPE) is an algorithm for generating low-dimensional Euclidean embeddings given a set 
+        of feature vectors \(X = \{ x_1, x_2, \dots x_N \} \) and/or their symmetric distance matrix \( D_{ij} \).
+        It is an interesting method because of its simplicity and efficiency, it scales linearly with the sample size \( N \). </br></br>
 
-	SPE consists of the following steps:<br></br>
-	<ol>
-	  <li>Choose an initial learning rate \( \lambda \). This parameter will decrease later in order to avoid oscillatory behaviour.</li></br>
-	  <li>Initialize randomly the point coordinates in the embedded space \(Y = \{ y_1, y_2, \dots y_N \} \).</li></br>
-	  <li>Update a set of the point coordinates.</br>
-	  For a prescribed number of iterations \( S \), choose a pair of point indices \( i \) and \( j \) and compute their distance in the embedded space, \[ d_{ij} = || x_i - x_j || \] If \( d_{ij} \neq D_{ij} \) then update the coordinates of the selected points by</br>
-	  \[ x_i \leftarrow x_i + \lambda \frac{1}{2} \frac{D_{ij} - d_{ij}}{d_{ij} + \epsilon} (x_i - x_j) \]
-	  \[ x_j \leftarrow x_j + \lambda \frac{1}{2} \frac{D_{ij} - d_{ij}}{d_{ij} + \epsilon} (x_j - x_i) \]
-	  </li></br>
-	  <li>Decrease the learning rate \( \lambda \) by a quantity \( \delta \lambda \).</li></br>
-	  <li>Repeat steps 2 to 4 for a predetermined number of iterations \( C \).</li></br>
-	</ol>
+        SPE consists of the following steps:<br></br>
+        <ol>
+          <li>Choose an initial learning rate \( \lambda \). This parameter will decrease later in order to avoid oscillatory behaviour.</li></br>
+          <li>Initialize randomly the point coordinates in the embedded space \(Y = \{ y_1, y_2, \dots y_N \} \).</li></br>
+          <li>Update a set of the point coordinates.</br>
+          For a prescribed number of iterations \( S \), choose a pair of point indices \( i \) and \( j \) and compute their distance in the embedded space, \[ d_{ij} = || x_i - x_j || \] If \( d_{ij} \neq D_{ij} \) then update the coordinates of the selected points by</br>
+          \[ x_i \leftarrow x_i + \lambda \frac{1}{2} \frac{D_{ij} - d_{ij}}{d_{ij} + \epsilon} (x_i - x_j) \]
+          \[ x_j \leftarrow x_j + \lambda \frac{1}{2} \frac{D_{ij} - d_{ij}}{d_{ij} + \epsilon} (x_j - x_i) \]
+          </li></br>
+          <li>Decrease the learning rate \( \lambda \) by a quantity \( \delta \lambda \).</li></br>
+          <li>Repeat steps 2 to 4 for a predetermined number of iterations \( C \).</li></br>
+        </ol>
 
-	<hr></hr>
-	<h3>Tapkee implementation</h3>	
-
-	Stochastic Proximity Embedding is used by means of setting the value of REDUCTION_METHOD to STOCHASTIC_PROXIMITY_EMBEDDING in the parameter map. The high-level implementation of the Stochastic Proximity Embedding algorithm can be found <a href="https://github.com/lisitsyn/tapkee/blob/master/tapkee/tapkee_methods.hpp#L439">here</a>.
-
-        <hr></hr>
+        <hr/>
         <h3>References</h3>
 
         <ol>
-	  <li><a href="http://www.dimitris-agrafiotis.com/Papers/jcc20078.pdf">Agrafiotis, D. K. (2002). Stochastic Proximity Embedding</a>.</li>
+          <li><a href="http://www.dimitris-agrafiotis.com/Papers/jcc20078.pdf">Agrafiotis, D. K. (2002). Stochastic Proximity Embedding</a>.</li>
         </ol>
 
         </section>

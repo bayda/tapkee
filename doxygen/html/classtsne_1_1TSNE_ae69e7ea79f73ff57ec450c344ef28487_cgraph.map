@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classtapkee_1_1LoggingSingleton.html#aa46d03bd88344fa1ceb6bd0c5a22f3f4" title="tapkee::LoggingSingleton::instance" alt="" coords="111,5,345,35"/>
+<area shape="rect" id="node5" href="$classtapkee_1_1LoggingSingleton.html#ac180dd2a26ff8501dfe47581cf714039" title="tapkee::LoggingSingleton::message_info" alt="" coords="93,58,363,89"/>
+<area shape="rect" id="node7" href="$classtsne_1_1TSNE.html#ac6ba8a016dabd93cc69a4dd5b93acc6e" title="zeroMean" alt="" coords="187,111,269,142"/>
+<area shape="rect" id="node9" href="$classtsne_1_1TSNE.html#a5f675f69a44362ea511a9213eab43952" title="computeGaussianPerplexity" alt="" coords="133,165,323,195"/>
+<area shape="rect" id="node13" href="$classtsne_1_1TSNE.html#a8e40cb6a01f567f9124fa1d73317083c" title="symmetrizeMatrix" alt="" coords="165,218,291,249"/>
+<area shape="rect" id="node15" href="$classtsne_1_1TSNE.html#a03915aa2531cec7b68e3461c62968b90" title="randn" alt="" coords="200,271,256,302"/>
+<area shape="rect" id="node17" href="$classtsne_1_1TSNE.html#a99c745597d595212e9410c3cf17e8a01" title="computeExactGradient" alt="" coords="149,325,307,355"/>
+<area shape="rect" id="node20" href="$classtsne_1_1TSNE.html#a1ddc0cf5a3a1a1eb85b2a37ea17146ee" title="computeGradient" alt="" coords="165,378,291,409"/>
+<area shape="rect" id="node26" href="$namespacetsne.html#a30ef50582d3271ca1e73ae7a8db36407" title="tsne::sign" alt="" coords="188,431,268,462"/>
+<area shape="rect" id="node11" href="$classtsne_1_1TSNE.html#aa250c3a400a47476ec26f256efbe4548" title="computeSquaredEuclideanDistance" alt="" coords="431,298,665,329"/>
+<area shape="rect" id="node22" href="$classtsne_1_1QuadTree.html#a64b56d8f0a460da8481efd5f4b8ac900" title="tsne::QuadTree::computeEdgeForces" alt="" coords="423,351,673,382"/>
+<area shape="rect" id="node24" href="$classtsne_1_1QuadTree.html#a13486c11df79385c8a99805433a21ba2" title="tsne::QuadTree::computeNonEdgeForces" alt="" coords="411,405,685,435"/>
+</map>

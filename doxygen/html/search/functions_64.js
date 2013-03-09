@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['datapoint',['DataPoint',['../classtsne_1_1DataPoint.html#a8b3a2044553e5e54e71161b88ca45940',1,'tsne::DataPoint::DataPoint()'],['../classtsne_1_1DataPoint.html#af689fb9c82adc9c805a5628072b1aad0',1,'tsne::DataPoint::DataPoint(int D, int ind, double *x)'],['../classtsne_1_1DataPoint.html#a4fcee4407cf4dabddb73500d1761b0e0',1,'tsne::DataPoint::DataPoint(const DataPoint &amp;other)']]],
+  ['decr',['decr',['../classtapkee_1_1tapkee__internal_1_1v__array.html#a431939dbd3f0ff43a3aef0c4731459e4',1,'tapkee::tapkee_internal::v_array']]],
+  ['decrease_5fkey',['decrease_key',['../classtapkee_1_1tapkee__internal_1_1FibonacciHeap.html#affab93898123fc4527b7985c24884fb9',1,'tapkee::tapkee_internal::FibonacciHeap']]],
+  ['defaultloggerimplementation',['DefaultLoggerImplementation',['../classtapkee_1_1DefaultLoggerImplementation.html#aefaa5fc64c9cf9b0fbdc99103317b20c',1,'tapkee::DefaultLoggerImplementation::DefaultLoggerImplementation()'],['../classtapkee_1_1DefaultLoggerImplementation.html#a7fdc59af948f2fa97ad203884fef8970',1,'tapkee::DefaultLoggerImplementation::DefaultLoggerImplementation(const DefaultLoggerImplementation &amp;)']]],
+  ['denseimplicitsquarematrixoperation',['DenseImplicitSquareMatrixOperation',['../structtapkee_1_1tapkee__internal_1_1DenseImplicitSquareMatrixOperation.html#a9e16862ca89a247301ab35dd032f3401',1,'tapkee::tapkee_internal::DenseImplicitSquareMatrixOperation']]],
+  ['denseinversematrixoperation',['DenseInverseMatrixOperation',['../structtapkee_1_1tapkee__internal_1_1DenseInverseMatrixOperation.html#a3541822b68fa6c2b1e9845499f1c7d4a',1,'tapkee::tapkee_internal::DenseInverseMatrixOperation']]],
+  ['densematrixoperation',['DenseMatrixOperation',['../structtapkee_1_1tapkee__internal_1_1DenseMatrixOperation.html#a963c1c8c79df7ebd6930760b6a7d3697',1,'tapkee::tapkee_internal::DenseMatrixOperation']]],
+  ['depth_5fdist',['depth_dist',['../namespacetapkee_1_1tapkee__internal.html#a6dee7b9782f51b0fb0ecb4f01f9c3e62',1,'tapkee::tapkee_internal']]],
+  ['descend',['descend',['../namespacetapkee_1_1tapkee__internal.html#ab1af46f863dc36fa7244e7ebf868d7a2',1,'tapkee::tapkee_internal']]],
+  ['dimensionality',['dimensionality',['../classtsne_1_1DataPoint.html#a9e782902734d291a701b945e350b08cc',1,'tsne::DataPoint']]],
+  ['disable_5fbenchmark',['disable_benchmark',['../classtapkee_1_1LoggingSingleton.html#adb5b04c8f174fb45979630f34f8d1327',1,'tapkee::LoggingSingleton']]],
+  ['disable_5fdebug',['disable_debug',['../classtapkee_1_1LoggingSingleton.html#aefd9c0a12b48a8e3415480eed5d74434',1,'tapkee::LoggingSingleton']]],
+  ['disable_5ferror',['disable_error',['../classtapkee_1_1LoggingSingleton.html#ac3215cbdeff18a6df381cc94012007a0',1,'tapkee::LoggingSingleton']]],
+  ['disable_5finfo',['disable_info',['../classtapkee_1_1LoggingSingleton.html#a2ec58dcfa63da283649f1120752baa41',1,'tapkee::LoggingSingleton']]],
+  ['disable_5fwarning',['disable_warning',['../classtapkee_1_1LoggingSingleton.html#ac6587978b7cee8401e334c5d1ae66294',1,'tapkee::LoggingSingleton']]],
+  ['dist_5fof_5fscale',['dist_of_scale',['../namespacetapkee_1_1tapkee__internal.html#aee6060e3340deea319bc8c3c30486892',1,'tapkee::tapkee_internal']]],
+  ['dist_5fsplit',['dist_split',['../namespacetapkee_1_1tapkee__internal.html#a9d3883f5694a2ff8456470767a537ddc',1,'tapkee::tapkee_internal']]],
+  ['distance',['distance',['../namespacetapkee_1_1tapkee__internal.html#a79ca06b79c9721619d7b72a4649d1e9f',1,'tapkee::tapkee_internal']]],
+  ['distance_5fcallback',['distance_callback',['../structdistance__callback.html#a061fd3fb73866e189252b2bd345a0109',1,'distance_callback']]],
+  ['distancecomparator',['DistanceComparator',['../structtsne_1_1VpTree_1_1DistanceComparator.html#a0e547fd97ecfd30313726ec62b2bf409',1,'tsne::VpTree::DistanceComparator']]],
+  ['ds_5fnode',['ds_node',['../structtapkee_1_1tapkee__internal_1_1ds__node.html#ad1d1915d270c3fc8302415b0677d9868',1,'tapkee::tapkee_internal::ds_node']]],
+  ['dsaupd_5f',['dsaupd_',['../arpack__wrapper_8hpp.html#a3eabc0ee91c768347f7fc904d5048502',1,'arpack_wrapper.hpp']]],
+  ['dseupd_5f',['dseupd_',['../arpack__wrapper_8hpp.html#a98e17aed477755f8017d0e250254cc6a',1,'arpack_wrapper.hpp']]]
+];

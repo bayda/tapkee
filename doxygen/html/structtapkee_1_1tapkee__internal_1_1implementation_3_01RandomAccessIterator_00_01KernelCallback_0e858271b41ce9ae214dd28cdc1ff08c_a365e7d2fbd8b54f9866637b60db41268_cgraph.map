@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$namespacetapkee_1_1tapkee__internal.html#afa0db1fc6dacd4d9479bfb873d5c220a" title="tapkee::tapkee_internal::compute_distance_matrix" alt="" coords="133,5,456,35"/>
+<area shape="rect" id="node5" href="$namespacetapkee_1_1tapkee__internal.html#a7b19ac8a49228950511c177290d5bc95" title="tapkee::tapkee_internal::centerMatrix" alt="" coords="173,58,416,89"/>
+<area shape="rect" id="node7" href="$namespacetapkee_1_1tapkee__internal.html#add10b992eff51ab8e89cb8ef16dfb270" title="Multiple implementation handler method for various eigendecomposition methods." alt="" coords="156,111,433,142"/>
+<area shape="rect" id="node9" href="$classtapkee_1_1LoggingSingleton.html#aa46d03bd88344fa1ceb6bd0c5a22f3f4" title="tapkee::LoggingSingleton::instance" alt="" coords="923,33,1157,63"/>
+<area shape="rect" id="node11" href="$classtapkee_1_1LoggingSingleton.html#ac180dd2a26ff8501dfe47581cf714039" title="tapkee::LoggingSingleton::message_info" alt="" coords="905,86,1175,117"/>
+<area shape="rect" id="node13" href="$namespacetapkee_1_1tapkee__internal.html#a21267a1c1b1fc39f0125609dfacffe96" title="tapkee::tapkee_internal::get_eigen_embedding_name" alt="" coords="504,190,851,221"/>
+<area shape="rect" id="node15" href="$namespacetapkee.html#aa485f620ab957f9766c6b3ca54c5501a" title="Main entry&#45;point of the library. Constructs dense embedding with specified dimension using provided d..." alt="" coords="621,137,733,167"/>
+<area shape="rect" id="node19" href="$namespacetapkee_1_1tapkee__internal.html#a7181ce6e827e1fe588067bcabb825975" title="tapkee::tapkee_internal::get_method_name" alt="" coords="899,139,1181,170"/>
+<area shape="rect" id="node21" href="$classtapkee_1_1LoggingSingleton.html#a84097017508fb53687b4611d2c987e97" title="tapkee::LoggingSingleton::message_error" alt="" coords="903,193,1177,223"/>
+</map>

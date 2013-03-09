@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$namespacetapkee_1_1tapkee__internal.html#add10b992eff51ab8e89cb8ef16dfb270" title="Multiple implementation handler method for various eigendecomposition methods." alt="" coords="253,31,384,62"/>
+<area shape="rect" id="node5" href="$structtapkee_1_1tapkee__internal_1_1implementation_3_01RandomAccessIterator_00_01KernelCallback_6811a0bcfaaf65cdb08b7d6dcd289bd7.html#a365e7d2fbd8b54f9866637b60db41268" title="tapkee::tapkee_internal::implementation\&lt; RandomAccessIterator, KernelCallback, DistanceCallback, FeatureVectorCallback, DIFFUSION_MAP \&gt;::operator()" alt="" coords="476,5,1431,35"/>
+<area shape="rect" id="node7" href="$structtapkee_1_1tapkee__internal_1_1implementation_3_01RandomAccessIterator_00_01KernelCallback_0e858271b41ce9ae214dd28cdc1ff08c.html#a365e7d2fbd8b54f9866637b60db41268" title="tapkee::tapkee_internal::implementation\&lt; RandomAccessIterator, KernelCallback, DistanceCallback, FeatureVectorCallback, MULTIDIMENSIONAL_SCALING \&gt;::operator()" alt="" coords="433,58,1473,89"/>
+</map>

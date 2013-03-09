@@ -1,0 +1,23 @@
+\form#0:$ K $
+\form#1:$ K_{i,j} = \exp\left(-\frac{d(x_i,x_j)^2}{w}\right) $
+\form#2:$ p = \sum_i K_{i,j}$
+\form#3:$ K_{i,j} = K_{i,j} / (p_i p_j)^t $
+\form#4:$ K_{i,j} = K_{i,j} / (p_i p_j) $
+\form#5:$ t $
+\form#6:$ w $
+\form#7:$ L_{i,N_i(j)} = \exp\left( - \frac{d(x_i,x_{N_i(j)})^2}{w} \right) $
+\form#8:$ L $
+\form#9:$ L_{i,j} = \max (L_{i,j}, L_{j,i}) $
+\form#10:$ D = \sum_{i} L_{i,j} $
+\form#11:$ L = D - L $
+\form#12:$ D $
+\form#13:$ O(N N \log k) $
+\form#14:$ O(\log N) $
+\form#15:$ k $
+\form#16:$ A $
+\form#17:$ V $
+\form#18:$ A V = D V $
+\form#19:$A V = D B V $
+\form#20:$ A = V D V^{-1} $
+\form#21:$ A^{1/2} = V D^{1/2} V^{-1} $
+\form#22:$ V D^{-1/2} V^{-1} $

@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$structtapkee_1_1any.html#a11909601b092928b7106a2c5808655b4" title="Assignment function from another any." alt="" coords="100,31,161,62"/>
+<area shape="rect" id="node5" href="$structtapkee_1_1any.html#ad20897c5c8bd47f5d4005989bead0e55" title="Frees any allocated memory, and sets the value to NULL." alt="" coords="319,5,369,35"/>
+<area shape="rect" id="node9" href="$structtapkee_1_1anyimpl_1_1base__any__policy.html#a9d776b663a6e0a7028eba549e889e80b" title="tapkee::anyimpl::base_any_policy::clone" alt="" coords="211,58,477,89"/>
+<area shape="rect" id="node7" href="$structtapkee_1_1anyimpl_1_1base__any__policy.html#a936050a72a90992e17033ec0311c7df1" title="tapkee::anyimpl::base_any_policy::static_delete" alt="" coords="527,5,836,35"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$namespacetapkee_1_1tapkee__internal.html#a1c10c90051f832a2a88b356ff8ac68e2" title="new_leaf" alt="" coords="235,5,309,35"/>
+<area shape="rect" id="node5" href="$namespacetapkee_1_1tapkee__internal.html#abe8fe5cb70b2b1fdb1cea84d3c6320ee" title="max_set" alt="" coords="236,58,308,89"/>
+<area shape="rect" id="node7" href="$namespacetapkee_1_1tapkee__internal.html#aee718b722c4380a0f59e87ebfe6b16c6" title="get_scale" alt="" coords="232,111,312,142"/>
+<area shape="rect" id="node9" href="$namespacetapkee_1_1tapkee__internal.html#a396fb5846d119aca89f5d7d91b1ce7aa" title="push" alt="" coords="471,217,521,247"/>
+<area shape="rect" id="node11" href="$namespacetapkee_1_1tapkee__internal.html#a9c517d27392a3df71e6ae38724a57b6e" title="new_node" alt="" coords="229,373,315,403"/>
+<area shape="rect" id="node13" href="$namespacetapkee_1_1tapkee__internal.html#a32ad2673f3ba134d14104a40aee81504" title="alloc" alt="" coords="247,426,297,457"/>
+<area shape="rect" id="node15" href="$namespacetapkee_1_1tapkee__internal.html#aa8d760aab5867f4dd78720e54669d62f" title="pop" alt="" coords="251,479,293,510"/>
+<area shape="rect" id="node17" href="$namespacetapkee_1_1tapkee__internal.html#ada48e1c28a6f1a4ade60a45d65ac0c7f" title="split" alt="" coords="249,269,295,299"/>
+<area shape="rect" id="node19" href="$namespacetapkee_1_1tapkee__internal.html#aee6060e3340deea319bc8c3c30486892" title="dist_of_scale" alt="" coords="445,270,547,301"/>
+<area shape="rect" id="node22" href="$namespacetapkee_1_1tapkee__internal.html#a9d3883f5694a2ff8456470767a537ddc" title="dist_split" alt="" coords="236,165,308,195"/>
+<area shape="rect" id="node29" href="$classtapkee_1_1tapkee__internal_1_1v__array.html#a431939dbd3f0ff43a3aef0c4731459e4" title="tapkee::tapkee_internal::v_array::decr" alt="" coords="147,533,397,563"/>
+<area shape="rect" id="node31" href="$classtapkee_1_1tapkee__internal_1_1v__array.html#a4fe9d3fee79bdf854302cfbf6707c729" title="tapkee::tapkee_internal::v_array::last" alt="" coords="151,586,393,617"/>
+<area shape="rect" id="node25" href="$namespacetapkee_1_1tapkee__internal.html#a79ca06b79c9721619d7b72a4649d1e9f" title="distance" alt="" coords="460,163,532,194"/>
+</map>

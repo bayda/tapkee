@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$eigen__embedding_8hpp.html" title="routines/eigen_embedding.hpp" alt="" coords="555,86,760,117"/>
+<area shape="rect" id="node9" href="$tapkee__defines_8hpp.html" title="tapkee_defines.hpp" alt="" coords="701,246,840,277"/>
+<area shape="rect" id="node40" href="$matrix_8hpp.html" title="utils/matrix.hpp" alt="" coords="859,86,968,117"/>
+<area shape="rect" id="node5" href="$arpack__wrapper_8hpp.html" title="utils/arpack_wrapper.hpp" alt="" coords="339,166,507,197"/>
+<area shape="rect" id="node7" href="$matrix__operations_8hpp.html" title="routines/matrix_operations.hpp" alt="" coords="531,166,733,197"/>
+<area shape="rect" id="node11" href="$tapkee__exceptions_8hpp.html" title="tapkee_exceptions.hpp" alt="" coords="123,326,280,357"/>
+<area shape="rect" id="node17" href="$any_8hpp.html" title="utils/any.hpp" alt="" coords="5,326,99,357"/>
+<area shape="rect" id="node20" href="$traits_8hpp.html" title="callbacks/traits.hpp" alt="" coords="304,326,437,357"/>
+<area shape="rect" id="node22" href="$methods__traits_8hpp.html" title="routines/methods_traits.hpp" alt="" coords="461,326,645,357"/>
+<area shape="rect" id="node36" href="$tapkee__projection_8hpp.html" title="tapkee_projection.hpp" alt="" coords="1373,326,1525,357"/>
+</map>

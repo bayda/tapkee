@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$namespacetapkee_1_1tapkee__internal.html#a8da78ff7cdf2c224af03389f083d1823" title="Computes shortest distances (so&#45;called geodesic distances) using Dijkstra algorithm." alt="" coords="164,31,545,62"/>
+<area shape="rect" id="node5" href="$structtapkee_1_1tapkee__internal_1_1implementation_3_01RandomAccessIterator_00_01KernelCallback_11ebd743657c1f28f4dd1189f38a5fb3.html#a365e7d2fbd8b54f9866637b60db41268" title="tapkee::tapkee_internal::implementation\&lt; RandomAccessIterator, KernelCallback, DistanceCallback, FeatureVectorCallback, ISOMAP \&gt;::operator()" alt="" coords="636,5,1537,35"/>
+<area shape="rect" id="node7" href="$structtapkee_1_1tapkee__internal_1_1implementation_3_01RandomAccessIterator_00_01KernelCallback_4931f4632f27bb5d638ab1f1a3fcd410.html#a365e7d2fbd8b54f9866637b60db41268" title="tapkee::tapkee_internal::implementation\&lt; RandomAccessIterator, KernelCallback, DistanceCallback, FeatureVectorCallback, LANDMARK_ISOMAP \&gt;::operator()" alt="" coords="596,58,1577,89"/>
+</map>

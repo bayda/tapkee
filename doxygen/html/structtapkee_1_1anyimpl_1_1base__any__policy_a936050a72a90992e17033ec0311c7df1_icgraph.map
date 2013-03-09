@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$structtapkee_1_1any.html#a482cedc26b5489cbeb3a72323b1337b3" title="Destructor." alt="" coords="152,5,283,35"/>
+<area shape="rect" id="node5" href="$structtapkee_1_1any.html#ad20897c5c8bd47f5d4005989bead0e55" title="Frees any allocated memory, and sets the value to NULL." alt="" coords="152,58,283,89"/>
+<area shape="rect" id="node7" href="$structtapkee_1_1any.html#a11909601b092928b7106a2c5808655b4" title="Assignment function from another any." alt="" coords="331,58,472,89"/>
+<area shape="rect" id="node9" href="$structtapkee_1_1any.html#a30f85f5a188f6545831d7a83bf59f11d" title="Initializing constructor." alt="" coords="539,31,661,62"/>
+<area shape="rect" id="node11" href="$structtapkee_1_1any.html#a8319b496fc03f8a4c1635281115ccc24" title="Assignment operator." alt="" coords="521,85,679,115"/>
+</map>

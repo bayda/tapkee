@@ -43,7 +43,7 @@
         </header>
 
         <section id="back" class="clearfix">
-          <a href="../index.html#methods" id="back" class="button"><span>Back to methods</span></a>
+          <a href="../index.html#methods" id="back" class="button"><span>Back</span></a>
         </section>
 
         <hr>
@@ -67,13 +67,8 @@
           </li>
         </ol>
         <hr>
-        <h3>Tapkee implementation</h3>
-        The Diffusion map algorithm is used when REDUCTION_METHOD key is set to DIFFUSION_MAP. The number
-        of timesteps \( q \) can be set using DIFFUSION_MAP_TIMESTEPS key. The method of eigendecomposition
-        is filled as EIGEN_EMBEDDING_METHOD (both ARPACK and RANDOMIZED are working well while the latter method is 
-        faster).<br/>
-        The high-level implementation can be found <a href="https://github.com/lisitsyn/tapkee/blob/master/tapkee/tapkee_methods.hpp#L133">here</a>.
-        <hr>
+        <h3>Result of applying diffusion map to swissroll data</h3>
+        <img width="100%" src="../images/swissroll/dm.png"/>
         <h3>References</h3>
         <ol>
           <li><a href="http://linkinghub.elsevier.com/retrieve/pii/S1063520306000546">
