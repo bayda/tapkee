@@ -43,7 +43,7 @@
         </header>
         
         <section id="back" class="clearfix">
-          <a href="../index.html#methods" id="back" class="button"><span>Back to methods</span></a>
+          <a href="../index.html#methods" id="back" class="button"><span>Back</span></a>
         </section>
 
         <hr>
@@ -80,16 +80,8 @@
         </ol>
 
         <hr>
-        <h3>Tapkee implementation</h3>
-        
-        To use the HLLE algorithm put HESSIAN_KERNEL_LOCALLY_LINEAR_EMBEDDING value as REDUCTION_METHOD to the parameter map. 
-        You can also set number of neighbors \( k \) as NUMBER_OF_NEIGHBORS in the parameter map 
-        and the eigenproblem shift can be set using EIGENSHIFT key. To change the method of obtaining nearest neighbors
-        use NEIGHBORS_METHOD (recommended value is COVER_TREE) key of the parameter map and to change 
-        the method of eigendecomposition use EIGEN_EMBEDDING_METHOD (recommended value is ARPACK). <br/>
-
-        The high-level implementation of the Hessian Locally Linear Embedding algorithm can be found 
-        <a href="https://github.com/lisitsyn/tapkee/blob/master/tapkee/tapkee_methods.hpp#L301">here</a>.
+        <h3>Result of applying HLLE to swissroll data</h3>
+        <img width="100%" src="../images/swissroll/hlle.png"/>
         <hr>
         <h3>References</h3>
         <ol>
