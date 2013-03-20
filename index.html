@@ -92,14 +92,12 @@ let the Tapkee know about that with the following define:</p>
 <p>Please note that if you don't include Eigen3 in your project there is no need to define that variable -
 Eigen3 will be included by Tapkee in this case.</p>
 
-<p>If you are able to use less restrictive licenses (such as GPLv3 and LGPLv3) you could define 
-the following variables:</p>
+<p>If you are able to use less restrictive licenses (such as LGPLv3) you could define 
+the following variable:</p>
 
 <ul>
 <li>
 <code>TAPKEE_USE_LGPL_COVERTREE</code> to use Covertree code by John Langford.</li>
-<li>
-<code>TAPKEE_USE_GPL_TSNE</code> to use Barnes-Hut-SNE code by Laurens van der Maaten (not yet possible).</li>
 </ul><p>When compiling your software that includes Tapkee be sure Eigen3 headers are in include path and your code
 is linked against ARPACK library (-larpack key for g++ and clang++).</p>
 
@@ -203,10 +201,8 @@ if you have successfully compiled or have got issues on any other system not lis
 <li><a href="http://lisitsyn.github.com/tapkee/methods/kpca.html">Kernel PCA (kPCA)</a></li>
 <li><a href="http://lisitsyn.github.com/tapkee/methods/ra.html">Random projection</a></li>
 <li><a href="http://lisitsyn.github.com/tapkee/methods/fa.html">Factor analysis</a></li>
-<li>
-<a href="http://lisitsyn.github.com/tapkee/method/tsne.html">t-SNE</a> (not yet included)</li>
-<li>
-<a>Barnes-Hut-SNE</a> (not yet included)</li>
+<li><a href="http://lisitsyn.github.com/tapkee/method/tsne.html">t-SNE</a></li>
+<li><a>Barnes-Hut-SNE</a></li>
 </ul><h2>Licensing</h2>
 
 <p>The library is distributed under the <a href="LICENSE">BSD 3-clause</a> license.</p>
@@ -215,7 +211,7 @@ if you have successfully compiled or have got issues on any other system not lis
 
 <ul>
 <li><p><a href="tapkee/external/barnes_hut_sne/">Barnes-Hut-SNE code</a> by Laurens van der Maaten which
-is distributed under the <a href="GPL-LICENSE">GPLv3 license</a>, not yet included.</p></li>
+is distributed under the BSD 4-clause license.</p></li>
 <li><p><a href="tapkee/neighbors/covertree.hpp">Covertree code</a> by John Langford and Dinoj Surendran 
 which is distributed under the <a href="LGPL-LICENSE">LGPLv3 license</a>.</p></li>
 <li><p><a href="tapkee/utils/any.hpp">Any type</a> by Christopher Diggins which is distributed under 
